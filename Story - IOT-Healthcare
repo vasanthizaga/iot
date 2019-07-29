@@ -30,6 +30,29 @@ Project 1:
 Smart Health Care Monitoring System Based on IoT :
 
   This project includes hardware which will measure blood pressure, heart rate, ECG & temperature, and send to Android application & Firebase.
-  
+  This project is significant in various ways because in today's world, everyday many lives are affected 
+  because the patients are not timely and properly operated. Also for real time parameter values are not 
+  efficiently measured in clinic as well as in hospitals.Sometimes it becomes difficult for hospitals to 
+  frequently check patient’s conditions. Also continuous monitoring of ICU patients is very difficult. 
+  To deal with these types of situations, this system is beneficial. Our system is designed to be used in
+  hospitals and homes also for measuring and monitoring various parameters like temperature, ECG, 
+  heart rate, blood pressure. The results can be recorded using PI. 
+  Also the doctors can see those results on mobile app. 
+  The system will also generate an alert notification which will be sent to doctor. 
+  Our system is useful for monitoring health system of every person through easily attach the device and record it.
+  In which we can analysis patient’s condition through their past data, we will recommend medicines 
+  if any emergency occurred through symbolic A.I.
+
+Sensors Required :
+
+1. Heart pulse 
+2. Temperature 
+3. Blood pressure
+4. Raspberry Pi B+
+
+Software required for Cloud and communication mechanism.
+
+
+
 
 
