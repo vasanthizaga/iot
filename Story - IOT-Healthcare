@@ -1,0 +1,58 @@
+Story :
+
+Internet of Things - Remote Sensing in  Healthcare.
+
+Remote IoT Sensing to improve data collection and transport in hospitals in remote locations with limited internet access.
+The project focuses on improving healthcare in developing countries using low power, economic electronics such as the Raspberry Pi (Rpi).
+
+Using devices such as the Raspberry Pi, create a system where data can be transported between remote locations, where internet connection is limited - a physical network of sorts.
+
+The system utilises 3 key components:
+1. Nodes that gather data in the field. These are Rpi's used in small clinics in rural towns. 
+Each clinic can have a node, or on a larger scale, each hospital room/wing could have a node. 
+The node is connected to sensors such as heart monitors, blood pressure monitors, etc. 
+I only had access to a webcam so I have modelled this as a sensor to monitor patients movement.
+
+2. Hubs that collect all the data from different nodes and upload it online. 
+The hub is located in a major city with internet access.
+
+3. Google or any Cloud Services - This is where the data is uploaded and processed. 
+An upcoming technology in the Internet of Things, the Bus is a great messaging service to transport messages 
+and large data the Service Bus can then be accessed from anywhere in the world. 
+The purpose of doing this is so that the patient data/information can be processed in more developed countries and
+feedback can be sent to the individual nodes through the hubs. On a more local scale, 
+some of the sensor data could be used to trigger messages on the service bus such as health alerts 
+that could be sent to nurses to act upon.
+
+
+Project 1:
+
+Smart Health Care Monitoring System Based on IoT :
+
+  This project includes hardware which will measure blood pressure, heart rate, ECG & temperature, and send to Android application & Firebase.
+  This project is significant in various ways because in today's world, everyday many lives are affected 
+  because the patients are not timely and properly operated. Also for real time parameter values are not 
+  efficiently measured in clinic as well as in hospitals.Sometimes it becomes difficult for hospitals to 
+  frequently check patient’s conditions. Also continuous monitoring of ICU patients is very difficult. 
+  To deal with these types of situations, this system is beneficial. Our system is designed to be used in
+  hospitals and homes also for measuring and monitoring various parameters like temperature, ECG, 
+  heart rate, blood pressure. The results can be recorded using PI. 
+  Also the doctors can see those results on mobile app. 
+  The system will also generate an alert notification which will be sent to doctor. 
+  Our system is useful for monitoring health system of every person through easily attach the device and record it.
+  In which we can analysis patient’s condition through their past data, we will recommend medicines 
+  if any emergency occurred through symbolic A.I.
+
+Sensors Required :
+
+1. Heart pulse 
+2. Temperature 
+3. Blood pressure
+4. Raspberry Pi B+
+
+Software required for Cloud and communication mechanism.
+
+
+
+
+
